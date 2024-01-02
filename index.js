@@ -359,7 +359,7 @@ return;
     
  
 
-            var array = ['fuck' , 'fck' , 'motherfucker' , 'mf' , 'lpc' , 'lund' , 'lun',   'asshole', 'babby', 'bc', 'bhenchod', 'bhosdike', 'bitchh', 'bochlike', 'Boobs', 'bsdk', 'bund', 'chut', 'chutiya', 'chutiye', 'chutu', 'Dhui', 'fk', 'fuck', 'fuckk', 'fuckkk', 'gand', 'khusra', 'kutta', 'kutti', 'kutty', 'LPC', 'lpcc', 'lul', 'lun', 'lunn', 'ma ki chut', 'maa ki chut', 'nig', 'niga', 'niger', 'nigga', 'nigger', 'pan yaka', 'panyaka', 'phuck', 'phuda', 'phudd', 'Phudda', 'phudi', 'Tmkc',  'sana' , 'lul server' ,  'nikal mc' , 'gashti ka bacha' , 'kutti ke' , 'kutta' , 'kutti' , 'randi' , 'phuda' , 'bkc' , 'phudda' , 'phuddi' , 'phudi' , 'chod' , 'panchod' , 'mtherfcker' , 'fcker' , 'bitch' , 'dick' , 'penis' , 'hell' , 'bloody hell' , 'nudes' , 'nudity' , 'fcking' , 'shit' , 'ass' , 'fak' , 'bich' , 'gay' , 'f u c k' , 'nigga']; //add here if you want to add
+            var array = ['fuck' , 'fck' , 'motherfucker' , 'mtherfcker' , 'fcker' , 'bitch' , 'dick' , 'penis' , 'hell' , 'bloody hell' , 'nudes' , 'nudity' , 'fcking' , 'shit' , 'ass' , 'fak' , 'bich' , 'gay' , 'f u c k' , 'nigga']; //add here if you want to add
             if(array.some(w =>  ` ${msg.content.toLowerCase()} `.includes(` ${w} `) && !msg.member.hasPermission('MANAGE_MESSAGES'))){
             var animebonk = emojiGuild.emojis.cache.find(emoji => emoji.name === 'animebonk')                                                                                  
 
