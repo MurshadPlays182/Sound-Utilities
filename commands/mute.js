@@ -81,7 +81,7 @@ exports.run = async(client, msg, args) => {
     var log = new Discord.MessageEmbed()
     .setColor('RED')
     .setTitle("A Member Was Muted")
-    .addField("Server:", 'Murshad\'s Server') //delete Murshad and write ur cannel name
+    .addField("Server:", 'Murshad\'s Server') //delete Murshad and write ur server name
     .addField('Expires in:' , ms(ms(args[1])))
     .addField("Punishment ID:", `\`${punishmentID}\``)
     .addField("Time", time)
@@ -90,7 +90,7 @@ exports.run = async(client, msg, args) => {
     var userLog = new Discord.MessageEmbed()
     .setColor('0x05ff4c')
     .setTitle(`You were Muted in Murshad\'s Server`)
-    .addField("Server:", 'Murshad\'s Server') //delete Murshad and write ur cannel name
+    .addField("Server:", 'Murshad\'s Server') //delete Murshad and write ur server name
     .addField('Expires in:' , ms(ms(args[1])))
     .addField("Punishment ID:", `\`${punishmentID}\``)
     .addField("Time", time)
